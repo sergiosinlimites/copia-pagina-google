@@ -5,86 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copia Google</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="navegacion__contenedor">
-                <a href="" class="navegacion__ancla">
+    <header class="header">
+        <nav class="navegador">
+            <ul class="navegacion">
+                <div class="navegacion-izquierda">
                     <li class="navegacion__enlaces">
-                        Gmail
+                        <a href="" class="navegacion__ancla">
+                            Gmail
+                        </a>
                     </li>
-                </a>
-                <a href="" class="navegacion__ancla">
                     <li class="navegacion__enlaces">
-                        Imágenes
+                        <a href="" class="navegacion__ancla">
+                            Imágenes
+                        </a>
                     </li>
-                </a>
-                <a href="" class="navegacion__ancla">
-                    <li class="navegacion__enlaces">
-                        <figure class="navegacion__figura">
-                            <img src="" alt="">
-                        </figure>
-                    </li>
-                </a>
-                <a href="" class="navegacion__ancla">
-                    <li class="navegacion__enlaces">
-                        <figure class="navegacion__figura">
-                            <img src="" alt="">
-                        </figure>
-                    </li>
-                </a>
+                </div>
+                <div class="figura-derecha">
+                    <figure class="figura-derecha__figura">
+                        <a href="" class="figura-derecha__ancla">
+                            <img src="./img/menu-icon.png" alt="" class="figura-derecha__icono">
+                        </a>
+                    </figure>
+                    <figure class="figura-derecha__figura">
+                        <a href="#" class="figura-derecha__ancla">
+                            <img src="https://lh3.googleusercontent.com/ogw/ADGmqu_LgFD9FSjdeEKgicU-jaTTTobzL1TEjeNFd7-7fA=s32-c-mo" alt="user-photo" class="figura-derecha__photo">
+                        </a>
+                </div>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <figure>
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            </figure>
+        <section class="contenedor-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="contenedor-logo__logo">
         </section>
-        <section>
-            <div>
+        <section class="secciondos">
+
                 <div class="buscador">
-                    <input type="text" required>
-                    <button type="submit">
+                    <figure class="buscador__lupa">
                         <img src="" alt="">
+                    </figure>
+                    <input type="text" required class="buscador__caja">
+                    <button type="button" class="buscador__voz">
+                        <img src="./img/microfono.png" alt="Presionar para buscar por voz" class="buscador__voz-imagen">
                     </button>
                 </div>
                 <div class="botones">
-                    <center>
-                        <button>Buscar con Google</button>
-                        <button>Me siento con suerte</button>
+                    <center class="centrar">
+                        <button class="botones-debajo">Buscar con Google</button>
+                        <button class="botones-debajo">Me siento con suerte</button>
                     </center>
                 </div>
-            </div>
         </section>
-        <section>
-            <div>
+        <section class="secciontres">
+            <div class="ofrecido-por">
                 Ofrecido por Google en:
-                <a href=""><span>English</span></a>
-                <a href=""><span>Español (Latinoamérica)</span></a>
+                <a href="" class="ofrecido-por__ancla"><span class="ofrecido-por__span">English</span></a>
+                <a href="" class="ofrecido-por__ancla"><span class="ofrecido-por__span">Español (Latinoamérica)</span></a>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="footer-primero">
             Colombia
         </div>
-        <div>
-            <nav>
-                <ul>
-                    <li>Sobre Google</li>
-                    <li>Publicidad</li>
-                    <li>Negocios</li>
-                    <li>Cómo funciona la Búsqueda</li>
+        <div class="footer-segundo">
+            <nav class="navegacion-footer">
+                <ul class="contenedor-links contenedor-links--primero">
+                    <a href="" class="contenedor-links__ancla"><li class="contenedor-links__link">Sobre Google</li></a>
+                    <a href="" class="contenedor-links__ancla"><li class="contenedor-links__link">Publicidad</li></a>
+                    <a href="" class="contenedor-links__ancla"><li class="contenedor-links__link">Negocios</li></a>
+                    <div>
+                        <a href="" class="contenedor-links__ancla"><li class="contenedor-links__link">Cómo funciona la Búsqueda</li></a>
+                    </div>
                 </ul>
-                <ul>
-                    <li>Privacidad</li>
-                    <li>Condiciones</li>
-                    <li>Preferencias</li>
+                <ul class="contenedor-links contenedor-links--segundo">
+                    <a href="" class="contenedor-links__ancla"><li class="contenedor-links__link">Privacidad</li></a>
+                    <a href="" class="contenedor-links__ancla"><li class="contenedor-links__link">Condiciones</li></a>
+                    <a href="" class="contenedor-links__ancla"><li class="contenedor-links__link">Preferencias</li></a>
                 </ul>
             </nav>
         </div>
